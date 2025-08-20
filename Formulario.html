@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dani’s Burger</title>
+</head>
+<body>
+    <h1>Dani’s Burger 🍔</h1>
+    <form action="Tomar_Pedido" method="post">
+        <label for="nombre">Nombre</label required>
+        <input type="text" name="nombre" id="nombre">
+        
+        <label for="telefono">Teléfono</label required>
+        <input type="tel" name="telefono" id="telefono"> 
+        
+        <label for="direccion">Dirección</label required>
+        <input type="text" name="direccion" id="direccion"><br>
+        <br>
+        
+        <label for="menu">Menú</label required><br>
+        
+        <input type="checkbox" name="menu" id="ham_carne" value="ham_carne">
+        <label for="ham_carne">Hamburguesa de Carne</label required><br>
+        
+        <input type="checkbox" name="menu" id="ham_pollo" value="ham_pollo">
+        <label for="ham_pollo">Hamburguesa de Pollo</label required><br>
+      
+        <input type="checkbox" name="menu" id="per_caliente" value="per_caliente">
+        <label for="per_caliente">Perro Caliente</label required><br>
+        
+        <input type="checkbox" name="menu" id="arp_rellena" value="arp_rellena">
+        <label for="arp_rellena">Arepa rellena</label required><br>
+        
+        <input type="checkbox" name="menu" id="mazorcada" value="mazorcada">
+        <label for="mazorcada">Mazorcada</label required><br>
+        <br>
+        
+        <label for="met_pago">Método de Pago</label required>
+        <select name="met_pago" id="met_pago">
+            <option value="">Selecciona</option>
+            <option value="efe">Efectivo</option>
+            <option value="tar_deb">Tarjeta Debito</option>
+            <option value="tar_cre">Tarjeta Crédito</option>
+        </select>
+        <br>
+        
+        <br>
+        <button type="submit" value="conf_pedido" id="btnconf_pedido">Confirmar Pedido</button>
+    </form>
+</body>
+</html>
