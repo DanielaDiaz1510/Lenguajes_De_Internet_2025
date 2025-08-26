@@ -1,0 +1,90 @@
+
+.legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin: 20px auto;
+    max-width: 800px;
+    font-size: 0.9em;
+   
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: white;
+}
+
+.color-box {
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+}
+body{
+    background: #000000;
+    text-align: center ;
+    
+        }
+        h1{
+        color: white;
+        font-size: 3em;
+         }
+
+.tabla {
+    margin: 0 auto;
+    }
+.element{
+    border: 1px solid #333;
+    padding: 4px;
+    width: 50 px;
+    height: 50px;
+}
+.element:hover{
+    transform: scale(1.5,1.5)
+}
+
+.number{
+    font-size: 10px;
+    text-align: left ;
+}
+.symbol{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.nometal{
+    background-color: #E2EEFF;
+}
+.gasnoble{
+    background-color: #FFE7EB;
+}
+.alcalino{
+    background-color: #00758c;
+}
+.alcalinoterreo{
+    background-color: #D60024;
+}
+.metaloide{
+    background-color: #945700;
+}
+.metalpost{
+    background-color: #002c00;
+}
+.transicion{
+    background-color: #6232EC;
+}
+.lantanido{
+    background-color: #003355;
+}
+.desc{
+    background-color: #3F374F;
+}
+.actinoide{
+    background-color: #C73200;
+}
+.atomic-weight {
+    font-size: 0.7em;
+    margin-top: 2px;
+}
