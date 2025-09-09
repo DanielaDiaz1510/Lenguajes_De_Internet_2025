@@ -1,0 +1,104 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+nav {
+   background-color: #010308;
+   height: 60px;  
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+nav a {
+    color: white;
+    text-align: center;
+    padding: 20px 30px;  
+            
+                          
+}
+nav a:hover{
+    background-color: black;
+    border-bottom: 5px solid green;
+    
+    
+}   
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+table {
+  margin: auto;  
+  border-collapse: collapse;
+  width: 100%;          
+  text-align: center;
+  
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+    
+}
+
+th {
+    background-color: #04070e;
+    color: white;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+
+/* Tarjetas */
+.card-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+     
+    
+}
+
+.card {
+    background-color: white;
+    border-radius: 6px;
+    overflow: hidden;
+    border: 2px solid #50505096;
+    width: 300px;
+    margin: 10px;
+   
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.card p {
+    padding: 15px;
+    font-size: 12px;
+    text-align: justify;
+    
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    background-color: #010308;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #93c5fd;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
